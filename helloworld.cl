@@ -2,6 +2,7 @@
 ; (print (hello-world))
 ; \
 ;
+(defun returnX(x) (addXtoY x 10))
 (defun addXtoY(x y) + x y)
 
-(print (addXtoY 2 2))
+(print (returnX 10))
